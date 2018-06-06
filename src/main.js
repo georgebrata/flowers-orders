@@ -13,7 +13,14 @@ import {
   VIcon,
   VGrid,
   VToolbar,
-  transitions
+  transitions,
+  VDialog,
+  VCheckbox,
+  VDivider,
+  VCard,
+  VMenu,
+  VForm,
+  VTextField
 } from 'vuetify'
 import '../node_modules/vuetify/src/stylus/app.styl'
 
@@ -27,7 +34,10 @@ Vue.use(Vuetify, {
     VIcon,
     VGrid,
     VToolbar,
-    transitions
+    transitions,
+    VDialog,
+    VCheckbox,
+    VDivider, VMenu, VCard, VForm, VTextField
   },
   theme: {
     primary: '#ee44aa',
@@ -41,6 +51,9 @@ Vue.use(Vuetify, {
 })
 
 Vue.config.productionTip = false
+
+window.axios = require('axios')
+window.axios.baseUrl = 'http://localhost:3000/api'
 
 /* eslint-disable no-new */
 new Vue({

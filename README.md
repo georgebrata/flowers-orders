@@ -1,24 +1,30 @@
-# README
+# flowers-orders
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> A Vue.js project
 
-Things you may want to cover:
+## Build Setup
 
-* Ruby version
+``` bash
+# install dependencies
+npm install
 
-* System dependencies
+# serve with hot reload at localhost:8080
+npm run dev
 
-* Configuration
+# build for production with minification
+npm run build
 
-* Database creation
+# build for production and view the bundle analyzer report
+npm run build --report
 
-* Database initialization
+# run unit tests
+npm run unit
 
-* How to run the test suite
+# run e2e tests
+npm run e2e
 
-* Services (job queues, cache servers, search engines, etc.)
+# run all tests
+npm test
+```
 
-* Deployment instructions
-
-* ...
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
